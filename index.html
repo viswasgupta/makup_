@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière | Luxury Makeup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="custom-cursor">🖌️</div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Discover Your<br>Natural Radiance</h1>
+            <p>Luxury cosmetics crafted with clean ingredients for the modern, conscious beauty enthusiast.</p>
+            <a href="#shop" class="btn">Shop Collection →</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <div class="container">
+            <div class="content-grid">
+                <div class="layer-card">
+                    <span class="category">New Arrival</span>
+                    <h2>Velvet Matte Collection</h2>
+                    <p>Experience our revolutionary formula that combines lasting wear with weightless comfort. Created for all skin types.</p>
+                    <a href="#collection" class="text-link">Explore Collection →</a>
+                </div>
+                <div class="content-card"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products">
+        <div class="container">
+            <h2>Bestsellers</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Silk Foundation</h3>
+                    <p>Weightless coverage with a natural finish</p>
+                    <span class="price">$48</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Rose Lip Tint</h3>
+                    <p>Hydrating color for perfect lips</p>
+                    <span class="price">$32</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Glow Highlighter</h3>
+                    <p>Ethereal luminosity for all skin tones</p>
+                    <span class="price">$38</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const cursor = document.getElementById('custom-cursor');
+        
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>
